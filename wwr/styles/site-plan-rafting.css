@@ -2,7 +2,7 @@
 
 :root{
     --primary-color: #0F260C;
-    --seceondary-color: #A49E8D;
+    --secondary-color: #A49E8D;
     --accent1-color: #689689;
     --accent2-color: #83E8BA;
 
@@ -43,7 +43,7 @@ nav a{
     padding: 1rem;
 }
 
-nav a:link, nav a :visited{
+nav a:link, nav a:visited{
     color:var(--nav-link-color)
 }
 nav a:hover{
