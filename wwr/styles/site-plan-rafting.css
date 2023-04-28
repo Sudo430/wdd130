@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather%family=Titillium+Web%display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Titillium+Web&display=swap');
 
 :root{
     --primary-color: #0F260C;
@@ -6,8 +6,8 @@
     --accent-color: #689689;
     --accent-color2: #83E8BA;
 
-    --heading-font: 'Merrieather',serif;
-    --paragraph-font: 'Titillium web', sans-serif;
+    --heading-font: 'Merrieather';
+    --paragraph-font: 'Titillium web';
 
     --navigation-background-color: #040a03;
     --navigation-link-color: #689689;
