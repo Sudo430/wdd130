@@ -44,8 +44,9 @@ aside img{
 }
 
 aside h2{
-    position: relative;
-    top: 35px;
+    position: absolute;
+    top: 700px;
+    left: 120px;
     color: rgb(41, 41, 41);
 
 }
