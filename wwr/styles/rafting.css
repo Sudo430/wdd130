@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Titillium+Web&display=swap');
+
+:root{
+    --primary-color: #0F260C;
+    --secondary-color: #A49E8D;
+    --accent1-color: #689689;
+    --accent2-color: #83E8BA;
+
+    --heading-font: 'Merrieather';
+    --paragraph-font: 'Titillium web';
+
+    --nav-background-color: #040a03;
+    --nav-link-color: #689689;
+    --nav-hover-link-color: #94d3c0;
+    --nav-hover-background-color: #1b4614;
+}
+
+*{
+    width: 1000px;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p{
+    padding: 25px;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+.hero {
+    position: relative;
+
+
+}
+
+
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+
+}
+.hero h1{
+    background-color: rgba(228, 228, 228, 0.603);
+    position: absolute;
+    top: 10px;
+    left: 450px;
+    padding: 15px;
+    width: auto;
+    
+}
+.hero article{
+    position: absolute;
+    top: 125px;
+    left: 100px;
+    background-color: rgba(37, 37, 37, 0.603);
+    width: auto;
+
+}
+
+.hero article p{
+    width: 800px;
+    color: var(--secondary-color);
+}
+
+.hero article img{
+    float: right;
+    width: 225px;
+    height: auto;
+}
+
+footer nav a img{
+    width: 50px;
+    height: auto;
+}
