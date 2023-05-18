@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Poll Form | WDD 130</title>
+        <meta name="author" content="Tyler Dickey">
+        <meta name="description" content="a simple form.">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <link rel="stylesheet" href="styles/poll-form.css">
+    </head>
+    <body>
+            
+
+        <header>
+            <h1>WDD 130 | Tyler Dickey | HTML Form - User Poll</h1>
+        </header>
+
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Infomation</legend>
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email</label>
+                        <input type="text" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item column1">
+                        <label for="favbrowser">What is your favorite browser?</label>
+                        <select name="favbrowser" id="favbrowser" >
+                            <option value="chrome">Chrome</option>
+                            <option value="firefox">Firefox</option>
+                            <option value="safari">Safari</option>
+                            <option value="edge">Edge</option>
+                            <option value="brave">Brave</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" name="pet" id="pet">
+                    </div>
+
+                    <label for="places">List the places you have lived:</label>
+                    <textarea name="places" id="places" cols="30" rows="4" placeholder="Sweetwater Tennessee, Logan Utah, Sydney Australia"></textarea>
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy;2023 | HTML Form - User Poll Acticity | Tyler Dickey</p>
+        </footer>
+    </body>
+</html>
