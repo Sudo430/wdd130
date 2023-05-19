@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+    grid-template-rows: 50px 1fr;
+}
+
+form{
+    grid-column: 2/3; 
+    grid-row: 2/3; 
+    background-color: lightgray;
+    padding: 10px;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+
+}
+
+fieldset{
+    border: 0;
+    display: grid;
+    grid-gap: 10px;
+
+}
+
+legend{
+    padding: 5px;
+    font-weight: bold;
+    color: darkred;
+}
+
+input,select, textarea{
+    margin-bottom: 10px;
+    font-size: medium;
+    padding: 3px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+
+
+
+button{
+    justify-self: right;
+    width: 100px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    background-color: white;
+    font-size: medium;
+}
+
+button:hover{
+    color: rgb(204, 204, 204);
+    background-color: darkred;
+}
+
+strong{
+    color: darkred;
+}
