@@ -203,3 +203,117 @@ footer nav a img{
     width: 50px;
     height: auto;
 }
+
+/* Contact us page */
+
+.main-grid{
+    display: grid;
+    margin: 10px;
+    grid-gap: 50px;
+    grid-template-columns: 475px 475px;
+    grid-template-rows: 75px 200px 500px 400px;
+
+}
+
+.main-grid *{
+    width: auto;
+}
+.contactus-h1{
+    grid-column: 1/3;
+    justify-self: center;
+    text-align: center;
+}
+
+.contact-info {
+    background-color: rgba(0, 0, 0, 0.144);
+    text-align: center;
+}
+
+
+
+
+.map iframe{
+    width: 475px;
+    height: 500px;
+}
+
+.contact-form *{
+    width: auto;
+}
+
+.contact-form{
+    justify-self: center;
+    width: auto;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: rgba(0, 0, 0, 0.144);
+    padding:40px;
+
+
+}
+
+.contact-form fieldset{
+    border: 0;
+    display: grid;
+    grid-gap: 5px;
+    margin: 10px;
+    padding: 0;
+    grid-template-columns: 380px;
+
+}
+
+.contact-form h2{
+    text-align: center;
+}
+
+.form-q{
+    font-size: large;
+    font-weight: 500;
+}
+.contact-form fieldset input[type="text"]{
+    font-size: medium;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.contact-form fieldset button{
+    margin-top: 20px;
+    width: 200px;
+    justify-self: right;
+    font-size: x-large;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    border: 1px solid var(--accent1-color);
+    border-radius: 5px;
+}
+
+.contact-form fieldset button:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+.employee{
+    grid-column: 1/3;
+    align-self: center;
+    padding-top: 50px;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 50px 50px;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.employee img{
+    width: 200px;
+    height: auto;
+}
+.employee p{
+    align-self: self-start;
+    padding: 0;
+    margin: 0;
+    font-size: large;
+}
