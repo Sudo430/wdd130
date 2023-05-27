@@ -19,6 +19,17 @@
     width: 1000px;
 }
 
+html{
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1000px 1fr;
+}
+
+body{
+    grid-column: 2/3;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -316,4 +327,105 @@ footer nav a img{
     padding: 0;
     margin: 0;
     font-size: large;
+}
+
+/* Trips page */
+.tripmain *{
+    width: auto;
+}
+
+.tripmain{
+    width: auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 340px 1fr;
+
+}
+
+.calltoaction{
+    position: relative;
+    margin: 10px;
+    grid-column: 1/3;
+}
+
+.calltoaction img{
+    width: 1000px;
+    display: block;
+    margin-left: 20px;
+}
+
+.calltoaction h2{
+    background-color: rgba(228, 228, 228, 0.603);
+    position: absolute;
+    top: 10px;
+    left: 450px;
+    padding: 15px;
+    width: auto;
+}
+
+.calltoaction p{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 800px;
+    padding: 25px;
+    background-color: rgba(37, 37, 37, 0.603);
+
+    color: lightgray;
+    text-align: center;
+    
+}
+
+.calltoaction a{
+    position: absolute;
+    top: 230px;
+    left: 475px;
+    background-color: rgba(37, 37, 37, 0.603);
+    padding: 10px;
+    color: lightgray;
+    text-align: center;
+}
+
+.calltoaction a:link, nav a:visited{
+    color:var(--nav-link-color)
+}
+
+.trips{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.144);
+    padding: 10px;
+    margin: 0;
+}
+
+.trips img{
+    width: 460px;
+    height: auto;
+    border: 1px solid darkgray;
+
+}
+
+.triptable *{
+    margin: 0;
+    padding: 0;
+}
+
+.triptable{
+    text-align: center;
+    border: 2px solid darkgray;
+    width: 460px;
+
+}
+
+.triptable tr{
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    height: 30px;
+}
+.triptable tbody tr td{
+    background-color: white;
+    border: 2px solid darkgray;
+    text-align:center;
+    height: 475px;
+    
 }
