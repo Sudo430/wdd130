@@ -405,6 +405,10 @@ footer nav a img{
 
 }
 
+.tablediv{
+    margin-left: 65px;
+}
+
 .triptable *{
     margin: 0;
     padding: 0;
