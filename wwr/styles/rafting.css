@@ -438,7 +438,6 @@ footer nav a img{
 .homemain{
     display: grid;
     grid-template-columns: 500px 500px;
-    grid-template-areas: 1fr 1fr 1fr;
 }
 
 .hhero{
